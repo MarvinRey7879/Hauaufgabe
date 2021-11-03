@@ -7,6 +7,8 @@ public class Rechenoperationsliste implements Rechneroperation {
     ArrayList<Rechneroperation> mylist;
     double[] ausgangsfeld = {1,3,5,6};
     public Rechenoperationsliste (){
+        this.mylist = new ArrayList<>(
+        );
     }
     // initialisiert die Liste von Rechenoperationen
     public void add(Rechneroperation operation){
